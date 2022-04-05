@@ -5,7 +5,7 @@ email: "patricio.estevez@ucl.ac.uk"
 organizations:
 - name: University College London
   url: "https://www.ucl.ac.uk/jill-dando-institute/research/jdi-latam"
-role: Profesor para América Latina y el Caribe
+role: Profesor
 social:
 - icon: envelope
   icon_pack: fas
