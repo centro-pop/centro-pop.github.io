@@ -18,6 +18,9 @@ jobs:
           command: HUGO_ENV=production hugo -v
       - deploy:
           name: "Deploy public/ to gh-pages branch"
+          - add_ssh_keys:
+              fingerprints:
+                  "80:f0:39:6c:4f:89:1c:f1:b5:52:70:7e:59:7c:34:c4"
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
                 rm -rf .git
